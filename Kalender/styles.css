@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 100px 50px 100px 100px 100px 100px 100px;
+    grid-gap: 0.1rem;
+}
