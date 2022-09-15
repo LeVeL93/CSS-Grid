@@ -2,9 +2,44 @@
     box-sizing: border-box;
 }
 
-.container {
+body {
+    width: 100%;
+    margin: 0;
+}
+
+
+
+.header-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px;
+    grid-gap: 0.1rem;
+    background-color: red;
+    color: white;
+}
+
+
+
+.section-container {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: 100px 50px 100px 100px 100px 100px 100px;
-    grid-gap: 0.1rem;
+    grid-template-rows: 50px 100px 100px 100px 100px 100px;
+}
+
+
+h1 {
+    display: flex;
+    place-self: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span,
+div {
+    display: flex;
+    place-self: center;
+}
+
+
+.section-container {
+    background-color: gray;
 }
